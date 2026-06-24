@@ -29,7 +29,7 @@ gate_time_end=time.time()
 amplitudes=np.abs(final_state) #measuring probabilities
 probabilities=amplitudes**2
 
-# --- Visualization for Streamlit ---
+# Visualization for Streamlit 
 st.title("Bell State Simulator")
 st.write("Final State Vector:", final_state)
 st.write("Probabilities of measuring each state:", probabilities)
