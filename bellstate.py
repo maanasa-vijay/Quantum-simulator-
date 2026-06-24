@@ -40,5 +40,5 @@ plt.xlabel('State')
 plt.ylabel('Probability')
 plt.title('Measurement Probability Distribution')
 
-# Replace plt.show() with this for web display:
+
 st.pyplot(plt)
